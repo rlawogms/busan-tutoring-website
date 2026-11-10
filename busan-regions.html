@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>부산 지역별 과외 안내 - 부산 전과목 일대일 과외</title>
+<meta name="description" content="부산광역시 중구·서구·동구·영도구·부산진구·동래구·남구·북구·해운대구·사하구·금정구·강서구·연제구·수영구·사상구·기장군 전 지역에서 일대일 맞춤 과외가 가능합니다." />
+<meta name="keywords" content="부산 과외, 부산 일대일 과외, 부산 수학과외, 부산 영어과외, 부산 국어과외, 부산 지역별 과외, 부산 방문과외, 부산 비대면과외" />
+<link rel="canonical" href="https://busan-tutoring.co.kr/busan-regions.html" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff; word-break: keep-all; }
+
+.navbar {
+  position: sticky; top: 0; z-index: 1000;
+  background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 32px;
+}
+.navbar-brand { display: flex; align-items: center; gap: 8px; font-weight: 700; color: #0D2B6B; font-size: 16px; text-decoration: none; white-space: nowrap; flex-shrink: 0; }
+.navbar-brand img { width: 26px; height: 26px; }
+.navbar-links { display: flex; align-items: center; gap: 20px; overflow-x: auto; flex: 1; min-width: 0; scrollbar-width: none; -ms-overflow-style: none; }
+.navbar-links::-webkit-scrollbar { display: none; }
+.navbar-links a.nav-link { color: #444; font-size: 14px; font-weight: 500; text-decoration: none; padding: 6px 2px; border-bottom: 2px solid transparent; white-space: nowrap; flex-shrink: 0; }
+.navbar-links a.nav-link:hover, .navbar-links a.nav-link.active { color: #0D2B6B; border-bottom-color: #FFB400; }
+.navbar-cta { background: #0D2B6B; color: #fff; font-size: 13px; font-weight: 700; padding: 9px 16px; border-radius: 20px; text-decoration: none; white-space: nowrap; flex-shrink: 0; }
+.navbar-cta:hover { background: #0a2054; }
+@media (max-width: 600px) {
+  .navbar { padding: 10px 16px; gap: 8px; }
+  .navbar-brand span { display: none; }
+  .navbar-links { gap: 12px; }
+  .navbar-links a.nav-link { font-size: 13px; }
+  .navbar-cta { padding: 8px 12px; font-size: 12px; }
+}
+
+.page-header { background: #F5F7FB; padding: 48px 40px 28px; }
+.page-title { font-size: 30px; font-weight: 800; color: #1a1a1a; line-height: 1.35; }
+.page-accent { color: #0D2B6B; }
+.page-count { font-size: 17px; font-weight: 400; color: #999; margin-left: 6px; }
+.page-sub { margin-top: 12px; font-size: 14px; color: #666; line-height: 1.8; }
+
+.search-wrap { padding: 24px 40px 0; background: #F5F7FB; }
+.center-search {
+  width: 100%; max-width: 440px; padding: 12px 16px; border-radius: 10px;
+  border: 1.5px solid #cfd7e8; font-size: 14px; font-family: 'Noto Sans KR', sans-serif;
+  outline: none; background: #fff;
+}
+.center-search:focus { border-color: #0D2B6B; }
+
+.chip-row { display: flex; gap: 8px; flex-wrap: wrap; padding: 20px 40px 32px; background: #F5F7FB; }
+.region-chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 7px 16px; border-radius: 18px;
+  background: #fff; border: 1.5px solid #E0E6F0; color: #444; font-size: 13px; font-weight: 500;
+  text-decoration: none; transition: all 0.2s;
+}
+.region-chip:hover { background: #0D2B6B; color: #fff; border-color: #0D2B6B; }
+.region-chip span { color: #999; font-size: 11px; }
+.region-chip:hover span { color: rgba(255,255,255,0.7); }
+
+.centers-main { padding: 40px 40px 20px; }
+.center-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.center-card { min-height: 200px; scroll-margin-top: 70px; }
+.card-front {
+  width: 100%; height: 100%; box-sizing: border-box; display: flex; flex-direction: column;
+  background: #fff; border: 1px solid #E0E6F0; border-radius: 12px; padding: 18px 18px;
+  transition: box-shadow 0.2s;
+}
+.center-card:hover .card-front { box-shadow: 0 4px 16px rgba(13,43,107,0.10); }
+.card-top-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+.center-brand {
+  display: inline-block; font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 14px;
+  background: #E8EFFE; color: #0D2B6B;
+}
+.center-name { font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+.center-reg { font-size: 12.5px; color: #999; line-height: 1.5; margin-bottom: 10px; }
+.center-addr.filled { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.dong-tag { font-size: 12px; background: #F0F4FF; color: #0D2B6B; padding: 4px 10px; border-radius: 10px; font-weight: 500; }
+.dong-tag.dong-more { background: #F5F5F5; color: #888; }
+
+.school-details { margin-top: 10px; }
+.school-details summary {
+  cursor: pointer; list-style: none; font-size: 13px; font-weight: 700; color: #0D2B6B;
+  padding: 8px 0; display: flex; align-items: center; gap: 6px;
+}
+.school-details summary::-webkit-details-marker { display: none; }
+.school-details summary::before { content: '▸'; font-size: 11px; }
+.school-details[open] summary::before { content: '▾'; }
+.school-type-group { margin-top: 10px; margin-bottom: 10px; }
+.school-type-label { font-size: 12px; font-weight: 700; color: #0D2B6B; margin-bottom: 6px; }
+.school-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.school-item { font-size: 12px; padding: 5px 9px; border-radius: 7px; background: #F8F6F0; border: 1px solid #E5E1D8; color: #333; }
+
+.detail-btn {
+  margin-top: 14px; width: 100%; box-sizing: border-box;
+  background: #0D2B6B; color: #fff; font-size: 14px; font-weight: 700;
+  padding: 12px 16px; border-radius: 10px; text-decoration: none;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  font-family: 'Noto Sans KR', sans-serif; transition: background 0.2s;
+}
+.detail-btn:hover { background: #0a2054; }
+.detail-btn i { font-size: 13px; }
+
+.no-result { display: none; text-align: center; padding: 60px 20px; color: #999; font-size: 14px; }
+
+.cta-section { background: #FFF3E0; padding: 48px 40px; text-align: center; }
+.cta-section h2 { font-size: 20px; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; }
+.cta-section p { font-size: 14px; color: rgba(0,0,0,0.6); margin-bottom: 24px; line-height: 1.8; }
+.btn-primary {
+  background: #FFB400; color: #0D2B6B; border: none;
+  padding: 14px 30px; border-radius: 8px; font-size: 15px; font-weight: 700;
+  cursor: pointer; font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none; display: inline-block;
+}
+
+.footer { background: #0D1C3B; color: rgba(255,255,255,0.6); padding: 40px; font-size: 13px; line-height: 1.9; }
+.footer strong { color: rgba(255,255,255,0.9); font-size: 16px; display: block; margin-bottom: 10px; }
+
+.floating-btn {
+  position: fixed; bottom: 28px; right: 24px;
+  background: #FFB400; color: #0D2B6B; font-weight: 700; font-size: 14px;
+  padding: 14px 22px; border-radius: 30px; border: none; cursor: pointer;
+  font-family: 'Noto Sans KR', sans-serif; box-shadow: 0 4px 16px rgba(255,180,0,0.4);
+  display: flex; align-items: center; gap: 8px; z-index: 999;
+  text-decoration: none; transition: transform 0.2s;
+}
+.floating-btn:hover { transform: translateY(-2px); }
+
+.top-btn {
+  position: fixed; bottom: 28px; left: 24px;
+  width: 46px; height: 46px; border-radius: 50%;
+  background: #0D2B6B; color: #fff; border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; font-size: 18px;
+  box-shadow: 0 4px 16px rgba(13,43,107,0.35); z-index: 999;
+  opacity: 0; pointer-events: none; transform: translateY(10px);
+  transition: opacity 0.25s, transform 0.25s;
+}
+.top-btn.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+
+@media (max-width: 600px) {
+  .page-header { padding: 36px 20px 22px; }
+  .page-title { font-size: 22px; }
+  .page-count { font-size: 14px; }
+  .search-wrap, .chip-row, .centers-main, .cta-section { padding-left: 20px; padding-right: 20px; }
+  .footer { padding: 32px 20px; }
+  .center-grid { grid-template-columns: 1fr; }
+}
+
+.school-details-btn {
+  margin-top: 10px; cursor: pointer; background: none; border: none; padding: 8px 0;
+  font-size: 13px; font-weight: 700; color: #0D2B6B; display: flex; align-items: center; gap: 6px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.school-details-btn i { font-size: 11px; }
+
+.school-backdrop {
+  display: none; position: fixed; inset: 0; background: rgba(13,29,64,0.5); z-index: 1100;
+}
+.school-backdrop.show { display: block; }
+.school-modal {
+  display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 90%; max-width: 480px; max-height: 82vh; overflow-y: auto;
+  background: #fff; border-radius: 14px; padding: 24px 22px; z-index: 1200;
+  box-shadow: 0 16px 44px rgba(0,0,0,0.28);
+}
+.school-modal.show { display: block; }
+.school-modal-close {
+  position: absolute; top: 12px; right: 14px; background: none; border: none;
+  font-size: 22px; line-height: 1; color: #999; cursor: pointer; padding: 4px;
+}
+.school-modal-title { font-size: 17px; font-weight: 700; color: #0D2B6B; margin-bottom: 4px; padding-right: 24px; }
+.school-modal-count { font-size: 13px; color: #999; margin-bottom: 4px; }
+.school-modal-hint { font-size: 12px; color: #0D2B6B; background: #F0F6FF; border-radius: 8px; padding: 8px 10px; margin-bottom: 14px; line-height: 1.6; }
+.school-modal-search {
+  width: 100%; padding: 9px 12px; border-radius: 8px; margin-bottom: 14px;
+  border: 1.5px solid #ddd6c8; font-size: 13px; font-family: 'Noto Sans KR', sans-serif; outline: none;
+}
+.school-modal-search:focus { border-color: #0D2B6B; }
+.dong-chip-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+.dong-chip {
+  font-size: 11.5px; padding: 5px 10px; border-radius: 12px; cursor: pointer;
+  background: #F0F4FF; border: 1px solid #DCE4F5; color: #0D2B6B; font-family: 'Noto Sans KR', sans-serif;
+}
+.dong-chip.active { background: #0D2B6B; color: #fff; border-color: #0D2B6B; }
+.school-empty { font-size: 13px; color: #999; text-align: center; padding: 20px 0; }
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="navbar-brand"><img src="favicon.svg" alt="부산 전과목 일대일 과외"><span>부산 전과목 일대일 과외</span></a>
+  <div class="navbar-links">
+    <a href="index.html" class="nav-link">홈</a>
+    <a href="index.html#about" class="nav-link">수업 방식</a>
+    <a href="busan-regions.html" class="nav-link active">지역별 과외 안내</a>
+    <a href="busan-academy-finder.html" class="nav-link">부산 학원 찾기</a>
+    <a href="검정고시-과외.html" class="nav-link">검정고시 과외</a>
+    <a href="국제학교-과외.html" class="nav-link">국제학교 과외</a>
+    <a href="news.html" class="nav-link">입시뉴스</a>
+    <a href="reviews.html" class="nav-link">후기</a>
+  </div>
+  <a href="consult.html" class="navbar-cta">상담신청</a>
+</nav>
+
+<div class="page-header">
+  <h1 class="page-title">부산 <span class="page-accent">지역별</span> 과외 안내<span class="page-count">(16개 구·군)</span></h1>
+  <p class="page-sub">부산광역시 전 지역(16개 구·군) 어디서나 일대일 맞춤 과외 매칭이 가능합니다. 비대면 화상 수업은 전 지역 동일하게 진행되며, 대면 방문 수업은 지역별 선생님 배정 상황에 따라 달라질 수 있습니다.</p>
+</div>
+
+<div class="search-wrap">
+  <input type="text" id="centerSearch" class="center-search" placeholder="구 이름으로 검색 (예: 해운대구)" oninput="filterCenters(this.value)">
+</div>
+
+<div class="chip-row">
+    <a href="#card-중구" class="region-chip">중구</a>
+    <a href="#card-서구" class="region-chip">서구</a>
+    <a href="#card-동구" class="region-chip">동구</a>
+    <a href="#card-영도구" class="region-chip">영도구</a>
+    <a href="#card-부산진구" class="region-chip">부산진구</a>
+    <a href="#card-동래구" class="region-chip">동래구</a>
+    <a href="#card-남구" class="region-chip">남구</a>
+    <a href="#card-북구" class="region-chip">북구</a>
+    <a href="#card-해운대구" class="region-chip">해운대구</a>
+    <a href="#card-사하구" class="region-chip">사하구</a>
+    <a href="#card-금정구" class="region-chip">금정구</a>
+    <a href="#card-강서구" class="region-chip">강서구</a>
+    <a href="#card-연제구" class="region-chip">연제구</a>
+    <a href="#card-수영구" class="region-chip">수영구</a>
+    <a href="#card-사상구" class="region-chip">사상구</a>
+    <a href="#card-기장군" class="region-chip">기장군</a>
+</div>
+
+<div class="centers-main">
+  <div class="center-grid" id="centerGrid">
+
+    <div id="card-중구" class="center-card" data-name="중구" data-search="중구 부산 중구 과외 부산 중구 수학과외 부산 중구 영어과외 부산 중구 국어과외 부산 중구 과학과외 부산 중구 사회과외 부산 중구 일대일과외 부산 중구 비대면과외 부산 중구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 중구</div>
+        </div>
+        <div class="center-name">부산광역시 중구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-서구" class="center-card" data-name="서구" data-search="서구 부산 서구 과외 부산 서구 수학과외 부산 서구 영어과외 부산 서구 국어과외 부산 서구 과학과외 부산 서구 사회과외 부산 서구 일대일과외 부산 서구 비대면과외 부산 서구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 서구</div>
+        </div>
+        <div class="center-name">부산광역시 서구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-동구" class="center-card" data-name="동구" data-search="동구 부산 동구 과외 부산 동구 수학과외 부산 동구 영어과외 부산 동구 국어과외 부산 동구 과학과외 부산 동구 사회과외 부산 동구 일대일과외 부산 동구 비대면과외 부산 동구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 동구</div>
+        </div>
+        <div class="center-name">부산광역시 동구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-영도구" class="center-card" data-name="영도구" data-search="영도구 부산 영도구 과외 부산 영도구 수학과외 부산 영도구 영어과외 부산 영도구 국어과외 부산 영도구 과학과외 부산 영도구 사회과외 부산 영도구 일대일과외 부산 영도구 비대면과외 부산 영도구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 영도구</div>
+        </div>
+        <div class="center-name">부산광역시 영도구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-부산진구" class="center-card" data-name="부산진구" data-search="부산진구 부산 부산진구 과외 부산 부산진구 수학과외 부산 부산진구 영어과외 부산 부산진구 국어과외 부산 부산진구 과학과외 부산 부산진구 사회과외 부산 부산진구 일대일과외 부산 부산진구 비대면과외 부산 부산진구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 부산진구</div>
+        </div>
+        <div class="center-name">부산광역시 부산진구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-동래구" class="center-card" data-name="동래구" data-search="동래구 부산 동래구 과외 부산 동래구 수학과외 부산 동래구 영어과외 부산 동래구 국어과외 부산 동래구 과학과외 부산 동래구 사회과외 부산 동래구 일대일과외 부산 동래구 비대면과외 부산 동래구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 동래구</div>
+        </div>
+        <div class="center-name">부산광역시 동래구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-남구" class="center-card" data-name="남구" data-search="남구 부산 남구 과외 부산 남구 수학과외 부산 남구 영어과외 부산 남구 국어과외 부산 남구 과학과외 부산 남구 사회과외 부산 남구 일대일과외 부산 남구 비대면과외 부산 남구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 남구</div>
+        </div>
+        <div class="center-name">부산광역시 남구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-북구" class="center-card" data-name="북구" data-search="북구 부산 북구 과외 부산 북구 수학과외 부산 북구 영어과외 부산 북구 국어과외 부산 북구 과학과외 부산 북구 사회과외 부산 북구 일대일과외 부산 북구 비대면과외 부산 북구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 북구</div>
+        </div>
+        <div class="center-name">부산광역시 북구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-해운대구" class="center-card" data-name="해운대구" data-search="해운대구 부산 해운대구 과외 부산 해운대구 수학과외 부산 해운대구 영어과외 부산 해운대구 국어과외 부산 해운대구 과학과외 부산 해운대구 사회과외 부산 해운대구 일대일과외 부산 해운대구 비대면과외 부산 해운대구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 해운대구</div>
+        </div>
+        <div class="center-name">부산광역시 해운대구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-사하구" class="center-card" data-name="사하구" data-search="사하구 부산 사하구 과외 부산 사하구 수학과외 부산 사하구 영어과외 부산 사하구 국어과외 부산 사하구 과학과외 부산 사하구 사회과외 부산 사하구 일대일과외 부산 사하구 비대면과외 부산 사하구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 사하구</div>
+        </div>
+        <div class="center-name">부산광역시 사하구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-금정구" class="center-card" data-name="금정구" data-search="금정구 부산 금정구 과외 부산 금정구 수학과외 부산 금정구 영어과외 부산 금정구 국어과외 부산 금정구 과학과외 부산 금정구 사회과외 부산 금정구 일대일과외 부산 금정구 비대면과외 부산 금정구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 금정구</div>
+        </div>
+        <div class="center-name">부산광역시 금정구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-강서구" class="center-card" data-name="강서구" data-search="강서구 부산 강서구 과외 부산 강서구 수학과외 부산 강서구 영어과외 부산 강서구 국어과외 부산 강서구 과학과외 부산 강서구 사회과외 부산 강서구 일대일과외 부산 강서구 비대면과외 부산 강서구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 강서구</div>
+        </div>
+        <div class="center-name">부산광역시 강서구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-연제구" class="center-card" data-name="연제구" data-search="연제구 부산 연제구 과외 부산 연제구 수학과외 부산 연제구 영어과외 부산 연제구 국어과외 부산 연제구 과학과외 부산 연제구 사회과외 부산 연제구 일대일과외 부산 연제구 비대면과외 부산 연제구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 연제구</div>
+        </div>
+        <div class="center-name">부산광역시 연제구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-수영구" class="center-card" data-name="수영구" data-search="수영구 부산 수영구 과외 부산 수영구 수학과외 부산 수영구 영어과외 부산 수영구 국어과외 부산 수영구 과학과외 부산 수영구 사회과외 부산 수영구 일대일과외 부산 수영구 비대면과외 부산 수영구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 수영구</div>
+        </div>
+        <div class="center-name">부산광역시 수영구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-사상구" class="center-card" data-name="사상구" data-search="사상구 부산 사상구 과외 부산 사상구 수학과외 부산 사상구 영어과외 부산 사상구 국어과외 부산 사상구 과학과외 부산 사상구 사회과외 부산 사상구 일대일과외 부산 사상구 비대면과외 부산 사상구 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 사상구</div>
+        </div>
+        <div class="center-name">부산광역시 사상구</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+    <div id="card-기장군" class="center-card" data-name="기장군" data-search="기장군 부산 기장군 과외 부산 기장군 수학과외 부산 기장군 영어과외 부산 기장군 국어과외 부산 기장군 과학과외 부산 기장군 사회과외 부산 기장군 일대일과외 부산 기장군 비대면과외 부산 기장군 방문과외">
+      <div class="card-front">
+        <div class="card-top-row">
+          <div class="center-brand brand-wawa">부산 기장군</div>
+        </div>
+        <div class="center-name">부산광역시 기장군</div>
+        <div class="center-reg">비대면 화상 과외로 전 지역 동일하게 매칭 가능 · 대면 방문 수업은 선생님 배정 상황에 따라 달라질 수 있습니다</div>
+        <a href="consult.html" class="detail-btn"><i class="ti ti-message-circle-2"></i> 이 지역 과외 상담 신청</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="no-result" id="noResult">검색 결과가 없습니다.</div>
+</div>
+
+<section class="cta-section">
+  <h2>우리 동네 과외 선생님이 궁금하다면</h2>
+  <p>학생 학년·희망 과목·거주 지역을 남겨주시면 담당 매니저가 바로 안내해드립니다.</p>
+  <a href="consult.html" class="btn-primary">무료 매칭 상담 신청</a>
+</section>
+
+<footer class="footer">
+  <strong>동화세상에듀코원격평생교육학원</strong>
+  (주)동화세상에듀코 | 사업자등록번호 : 201-81-27348 (통신판매업 신고번호 동대문 제0409호) | 대표자 : 김영철 | 대표전화 : 1899-2277<br>
+  (02580) 서울특별시 동대문구 왕산로 25 (신설동 89-79) 동화세상에듀코 빌딩<br><br>
+  © 2026 (주)동화세상에듀코. All rights reserved.
+</footer>
+
+<a href="https://open.kakao.com/o/sJ7JrYwi" target="_blank" rel="noopener" class="floating-btn">
+  <i class="ti ti-message-circle"></i> 카카오톡 상담
+</a>
+
+<button class="top-btn" id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="맨 위로">
+  <i class="ti ti-arrow-up"></i>
+</button>
+<script>
+  (function() {
+    var btn = document.getElementById('topBtn');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 400) { btn.classList.add('show'); }
+      else { btn.classList.remove('show'); }
+    });
+  })();
+</script>
+
+<script>
+function filterCenters(q) {
+  q = q.trim();
+  var cards = document.querySelectorAll('.center-card');
+  var visibleCount = 0;
+  cards.forEach(function(card) {
+    var haystack = card.dataset.name + ' ' + (card.dataset.search || '');
+    var match = !q || haystack.indexOf(q) !== -1;
+    card.style.display = match ? '' : 'none';
+    if (match) visibleCount++;
+  });
+  document.getElementById('noResult').style.display = visibleCount === 0 ? 'block' : 'none';
+}
+
+(function() {
+  var q = new URLSearchParams(location.search).get('q');
+  if (q) {
+    var input = document.getElementById('centerSearch');
+    input.value = q;
+    filterCenters(q);
+  }
+})();
+</script>
+
+
+</body>
+</html>
